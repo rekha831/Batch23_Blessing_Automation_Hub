@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-02T14:04:33Z" name="Default suite" finished-at="2023-07-02T14:04:54Z" duration-ms="21284">
+    <groups>
+    </groups>
+    <test started-at="2023-07-02T14:04:33Z" name="Default test" finished-at="2023-07-02T14:04:54Z" duration-ms="21284">
+      <class name="com.spicejet.qa.test.LoginPageTest">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.spicejet.qa.test.LoginPageTest@6853425f]" started-at="2023-07-02T19:34:33Z" name="setUpTest" finished-at="2023-07-02T19:34:50Z" duration-ms="17117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="login()[pri:0, instance:com.spicejet.qa.test.LoginPageTest@6853425f]" started-at="2023-07-02T19:34:50Z" name="login" finished-at="2023-07-02T19:34:54Z" duration-ms="4135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:com.spicejet.qa.test.LoginPageTest@6853425f]" started-at="2023-07-02T19:34:54Z" name="tearDownTest" finished-at="2023-07-02T19:34:54Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- com.spicejet.qa.test.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
