@@ -1,7 +1,6 @@
 package com.spicejet.qa.page;
 
 import java.io.IOException;
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -30,8 +29,11 @@ public class LoginPage extends PageBase{
 	
 	public void login(String userId, String pwd) {
 		loginIckon.click();
+		
 		userIdfld.sendKeys(userId);
+		
 		password.sendKeys(pwd);
+		
 		loginBtn.click();
 		
 	}
